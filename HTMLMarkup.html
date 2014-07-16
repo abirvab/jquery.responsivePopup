@@ -1,0 +1,23 @@
+<div class="responsive-popup">
+        <div class="mask"></div>
+        <div class="popup-area">
+            <div class="popup-header">
+                <h1 class="h1">
+                   Header
+                </h1>
+            </div>
+            <div class="popup-content">
+                Content
+            </div>
+            <div class="popup-footer">
+                <a href="" class="close-btn">Close</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    $(function () {
+            $(".responsive-popup").responsivePopup({ action: "open", popupWidth: 300, popupHeight:200 });
+
+        });
+        </script>
